@@ -1,0 +1,17 @@
+databases:
+  customer:
+    - id: "databaseId"
+    - properties:
+        name:
+          id: "title"
+          type: "title"
+        status:
+          id: "dhuq"
+          type: "select"
+        notes:
+          id: "hdas"
+          type: "rich_text"
+
+pages:
+  - id: page_id
+    parent: databases.customer
